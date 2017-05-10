@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox chbAddDel, chbVisible;
     private Fragment1 fragment1;
     private Fragment2 fragment2;
-    private FragmentTransaction fragmentTransaction;
+//    private FragmentTransaction fragmentTransaction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         fragment1 = new Fragment1();
         fragment2 = new Fragment2();
 
-        fragmentTransaction = getFragmentManager().beginTransaction();
-        curFragment = 1;
-        fragmentTransaction.add(R.id.flCont, fragment1);
-        fragmentTransaction.commit();
+//        fragmentTransaction = getFragmentManager().beginTransaction();
+        curFragment = 0;
+//        fragmentTransaction.add(R.id.flCont, fragment1);
+//        fragmentTransaction.commit();
     }
 
     @Override
