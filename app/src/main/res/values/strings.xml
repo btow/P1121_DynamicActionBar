@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">P1121_DynamicActionBar</string>
+    <string name="the_fragment_1">The fragment 1</string>
+    <string name="the_fragment_2">The fragment 2</string>
+    <string name="item_31">Item 31</string>
+    <string name="item_32">Item 32</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_del">Add/Del</string>
+    <string name="visible_hide">Visible/Hide</string>
+    <string name="fragment">Fragment</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_1">Item 1</string>
+</resources>
